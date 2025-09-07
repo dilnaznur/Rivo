@@ -263,7 +263,7 @@ if __name__ == '__main__':
             if best_score > 0:
                 draw_intro_text(f"Best score: {best_score}", height=400)
 
-            draw_intro_text("Computational Intelligence Assignment", height=600, color='#D5ED8B')
-            draw_intro_text("Amirkabir University of Technology", height=650, color='#AB8CD5')
+            draw_intro_text("Rivo", height=600, color='#D5ED8B')
+            draw_intro_text("Welcome!", height=650, color='#AB8CD5')
         pygame.display.update()
         clock.tick(60)
